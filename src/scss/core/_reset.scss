@@ -1,0 +1,33 @@
+@use "../core/variables" as vars;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// html {
+//   background-color: vars.$colorYB;
+//   color: white;
+//   font-family: vars.$tipo1;
+// }
+
+body {
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fredoka", sans-serif;
+}
+
+button {
+  font-family: "Fredoka", sans-serif;
+}
