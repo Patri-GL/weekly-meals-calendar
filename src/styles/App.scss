@@ -1,3 +1,68 @@
-@use './core/reset';
+@use "core/reset";
+@use "core/variables" as vars;
 
-/* Aquí van los estilos */
+.btn {
+  font-family: "Fredoka", sans-serif;
+}
+:root {
+  background-color: vars.$darkbackground;
+  color: vars.$darkBody;
+  font-family: vars.$bodyText;
+}
+
+body {
+  height: 100vh;
+}
+header {
+  border-bottom: solid vars.$tags;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding-block: 1rem;
+}
+
+footer {
+  border-top: solid vars.$tags;
+  margin-block: 1rem;
+  padding: 1rem;
+}
+
+.footerList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: vars.$darkBody;
+}
+
+h1,
+h2,
+h3 {
+  font-family: vars.$headlines;
+  color: vars.$darkHeadings;
+}
+
+.heroSection {
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.heroImage {
+  width: 60%;
+  height: 25rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .heroImage img {
+//   max-width: 100%;
+//   max-height: 100%;
+//   object-fit: contain;
+// }
