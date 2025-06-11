@@ -1,9 +1,6 @@
 @use "core/reset";
 @use "core/variables" as vars;
 
-.btn {
-  font-family: "Fredoka", sans-serif;
-}
 :root {
   background-color: vars.$darkbackground;
   color: vars.$darkBody;
@@ -13,6 +10,23 @@
 body {
   height: 100vh;
 }
+.btn {
+  font-family: vars.$bodyText;
+  font-size: larger;
+  color: vars.$lightBody;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  background-color: vars.$secondary;
+  display: flex;
+  width: 15rem;
+  height: 4rem;
+  flex-direction: column;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+  border-radius: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
 header {
   border-bottom: solid vars.$tags;
   margin-bottom: 1rem;
@@ -48,21 +62,41 @@ h3 {
 
 .heroSection {
   width: 100%;
-  margin: 1rem;
+  margin: 0 auto;
   padding: 1rem;
+  text-align: justify;
+  line-height: 2.5rem;
+  display: flex;
 }
 
 .heroImage {
-  width: 60%;
-  height: 25rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 18rem;
+  height: 15rem;
+  margin: 0 20px 15px 0;
+  float: left;
+  shape-outside: margin-box;
+}
+.heroText {
+  text-align: justify;
+}
+.table {
+  width: 95%;
+  margin: 1rem;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+th {
+  border: solid cadetblue;
+  padding: 1rem;
+  background-color: vars.$tags;
+  color: vars.$darkHeadings;
+}
+td {
+  border: solid vars.$secondary;
+  padding: 1rem;
 }
 
-// .heroImage img {
-//   max-width: 100%;
-//   max-height: 100%;
-//   object-fit: contain;
-// }
+tr:hover {
+  background-color: vars.$secondary;
+  color: vars.$lightBody;
+}

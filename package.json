@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "rm -rf docs; npm run build ; mv dist docs; git add docs; git commit -m 'Update GH Pages'; git push",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "dom": "^0.0.3",
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router": "^7.6.2",
+    "router": "^2.2.0",
     "sass": "^1.89.0"
   },
   "devDependencies": {
