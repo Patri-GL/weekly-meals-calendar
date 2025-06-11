@@ -62,7 +62,16 @@ function App() {
               />
             }
           ></Route>
-          <Route path="/calendar" element={<Calendar />}></Route>
+          <Route
+            path="/calendar"
+            element={
+              <Calendar
+                regeneratePlan={regeneratePlan}
+                mealTypes={mealTypes}
+                weeklyPlan={weeklyPlan}
+              />
+            }
+          ></Route>
           <Route path="/recipes" element={<RecipesForm />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>

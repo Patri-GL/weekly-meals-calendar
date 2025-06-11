@@ -1,17 +1,14 @@
 import { NavLink } from "react-router";
-import RecipesForm from "../pages/RecipesForm";
-import Contact from "../pages/Contact";
+
 function Header() {
   return (
     <header>
-      <h1>Planea. Cocina. Come. Repite.</h1>
+      <NavLink to="/">
+        <h1>Planea. Cocina. Come. Repite.</h1>
+      </NavLink>
 
-      <NavLink path="/recipes" element={<RecipesForm />}>
-        Añade recetas
-      </NavLink>
-      <NavLink path="/contact" element={<Contact />}>
-        Contáctanos
-      </NavLink>
+      <NavLink to="/recipes">Añade recetas</NavLink>
+      <NavLink to="/contact">Contáctanos</NavLink>
     </header>
   );
 }
