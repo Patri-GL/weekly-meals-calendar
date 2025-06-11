@@ -1,0 +1,404 @@
+{
+  "info": {
+    "count": 62,
+    "pages": 1,
+    "currentPage": 1,
+    "next": null,
+    "prev": null
+  },
+  "results": [
+    {
+      "id": "01",
+      "name": "Overnight Oats",
+      "type": "desayuno",
+      "recipe": "Avena, leche, fruta, crema de frutos secos, cacao"
+    },
+    {
+      "id": "02",
+      "name": "Yogur con pera y canela",
+      "type": "desayuno",
+      "recipe": "Yogur al estilo griego, pera cortada en cubos, canela"
+    },
+    {
+      "id": "03",
+      "name": "Donut de yogur + manzana",
+      "type": "desayuno",
+      "recipe": "Para el donut, un yogur al estilo griego, un vaso de harina de avena, pasta de dátiles, polvos de hornear, ralladura de un limón"
+    },
+    {
+      "id": "04",
+      "name": "Pan con aguacate",
+      "type": "desayuno",
+      "recipe": "Pan con aguacate untado, si se desea, añadir un huevo hervido"
+    },
+    {
+      "id": "05",
+      "name": "Brownie de plátano y chocolate",
+      "type": "desayuno",
+      "recipe": "120gr de harina integral, 1huevo, 1 plátano 3 cucharadas de cacao en polvo, pintitas de chocolate, si se desea, añadir pasta de dátiles"
+    },
+    {
+      "id": "06",
+      "name": "Leche con cereales",
+      "type": "desayuno",
+      "recipe": "Cereales tipo Corn Flakes sin azúcar"
+    },
+
+    {
+      "id": "07",
+      "name": "Muffin de plátano y nueces",
+      "type": "desayuno",
+      "recipe": "1 Huevo, 1 Plátano, 1/2 vaso de harina integral, nueces trituradas, polvos de hornear"
+    },
+    {
+      "id": "08",
+      "name": "Pan con mantequila y mermelada",
+      "type": "desayuno",
+      "recipe": "PAra la mermelada casera, un vaso de fruta, por ejemplo, arándanos, 3 cucharadas de agua y 1 cucharada de azúcar, dejar hervir y que espese mientras escachamos la fruta para sacar su jugo"
+    },
+
+    {
+      "id": "09",
+      "name": "Yogur con pasas y avena",
+      "type": "desayuno",
+      "recipe": "Yogur al estilo griego, pasas y 1 cuacharada de avena"
+    },
+
+    {
+      "id": "10",
+      "name": "Pan con tomate y queso",
+      "type": "desayuno",
+      "recipe": "Rallar un tomate, añadir aceite de oliva, sal y orégano, cortar queso semicurado, añadir al pan integral cortado en rebanadas"
+    },
+
+    {
+      "id": "11",
+      "name": "Galletas de frutos secos + naranja",
+      "type": "desayuno",
+      "recipe": "Triturar frutos secos de elección, 1 huevo, harina integral, sal"
+    },
+
+    {
+      "id": "12",
+      "name": "Pan con aceite + melón",
+      "type": "desayuno",
+      "recipe": "Añadir el aceite al pan integral cortado en rebanadas"
+    },
+
+    {
+      "id": "13",
+      "name": "Tortitas de plátano",
+      "type": "desayuno",
+      "recipe": "1 plátano, 1 huevo, harina de avena, polvos de hornear"
+    },
+
+    {
+      "id": "14",
+      "name": "Crepes con mermelada casera de fresa",
+      "type": "desayuno",
+      "recipe": "1 huevo, leche, harina, pasta de dátiles, vainilla. Para la mermelada casera, un vaso de fresas, 3 cucharadas de agua y 1 cucharada de azúcar, dejar hervir y que espese mientras escachamos la fruta para sacar su jugo "
+    },
+    {
+      "id": "15",
+      "name": "Fruta de temporada",
+      "type": "snack",
+      "recipe": ""
+    },
+    {
+      "id": "16",
+      "name": "Pan con mantequilla de frutos secos",
+      "type": "snack",
+      "recipe": ""
+    },
+    {
+      "id": "17",
+      "name": "Tortitas de maíz",
+      "type": "snack",
+      "recipe": ""
+    },
+    {
+      "id": "18",
+      "name": "Yogur",
+      "type": "snack",
+      "recipe": ""
+    },
+    {
+      "id": "18",
+      "name": "Pan con queso",
+      "type": "snack",
+      "recipe": ""
+    },
+    {
+      "id": "19",
+      "name": "Kéfir",
+      "type": "snack",
+      "recipe": ""
+    },
+    {
+      "id": "21",
+      "name": "Pollo a la plancha + ensalada + kiwi",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "22",
+      "name": "Arroz + merluza al horno con verduras + tomate aliñado",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "23",
+      "name": "Fideuá con pollo + verduras a la plancha",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "24",
+      "name": "Pasta con salsa de pulpo + sandía",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "25",
+      "name": "Salmón y papas al horno con zanahoria + arándanos",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "26",
+      "name": "Pasta con salsa de boloñesa",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "27",
+      "name": "Hamburguesa con papas 'fritas' al horno + mazorca de maíz",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+
+    {
+      "id": "28",
+      "name": "Pollo al horno con papas + ensalada",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "29",
+      "name": "Guisantes + arroz + huevo guisado",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "30",
+      "name": "Pasta con salsa de calabaza",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "31",
+      "name": "Pasta con salsa de remolacha",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "31",
+      "name": "Pasta con salsa de remolacha",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "32",
+      "name": "Albóndigas con salsa de zanahoria + puré de papas",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "33",
+      "name": "Carne de fiesta canaria + arroz + ensalada",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+    {
+      "id": "34",
+      "name": "Merluza rebozada al limón + arroz + ensalada",
+      "type": "almuerzo",
+      "recipe": ""
+    },
+
+    {
+      "id": "35",
+      "name": "Magdalena casera al microondas+ melón",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "36",
+      "name": "Plátano",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "37",
+      "name": "Sándwich de aguacate y queso",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "38",
+      "name": "Yogur con crema de manices/cacahuete",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "39",
+      "name": "Galletas crujientes caseras",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "40",
+      "name": "Cerezas + magdalena de arándanos",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "41",
+      "name": "Sandía + pan con aceite",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "42",
+      "name": "Fresas + donut de chocolate",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "43",
+      "name": "Magdalena de cacao y calabacín",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "44",
+      "name": "Galletas saladas + mandarina",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "45",
+      "name": "Bizcocho de zanahoria",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "46",
+      "name": "Pan con mantequila y mermelada",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "47",
+      "name": "Croissant de manzana",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "47",
+      "name": "Tortitas de crema de manices/cacahuete",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "48",
+      "name": "Galletas de coco + kéfir",
+      "type": "merienda",
+      "recipe": ""
+    },
+    {
+      "id": "49",
+      "name": "Arroz con verduras y frijoles + plátano",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "50",
+      "name": "Lentejas + naranja",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "51",
+      "name": "Ensalada de garbanzos",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "52",
+      "name": "Hummus de garbanzos+ pepino + zanahoria",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "53",
+      "name": "Lentejas con arroz y cebolla caramelizada",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "54",
+      "name": "Judías verdes salteadas con ajo + fresas",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "55",
+      "name": "Arroz con verduras + tortilla de espárragos + kiwi",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "56",
+      "name": "Arroz con verduras + tortilla de alcachofas + cerezas",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "57",
+      "name": "puré de verduras + tortilla de papas",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "58",
+      "name": "Quiche de verduras, queso y bacon",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "59",
+      "name": "Arroz a la cubana + plátano al microondas",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "60",
+      "name": "Judiones en salsa de tomate + mandarina ",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "61",
+      "name": "Pizza de verduras",
+      "type": "cena",
+      "recipe": ""
+    },
+    {
+      "id": "62",
+      "name": "puré de verduras + tortilla de champiñones",
+      "type": "cena",
+      "recipe": ""
+    }
+  ]
+}

@@ -1,30 +1,30 @@
 {
-	"name": "adalab-web-starter-kit",
-	"version": "4.0.0",
-	"description": "Adalab web starter kit",
-	"type": "module",
-	"devDependencies": {
-		"@vituum/vite-plugin-concat": "^1.0.0",
-		"sass": "^1.83.4",
-		"sharp": "^0.32.6",
-		"vite": "^4.4.5",
-		"vite-plugin-html-inject": "^1.0.4",
-		"vite-plugin-image-optimizer": "^1.1.7"
-	},
-	"scripts": {
-		"start": "vite",
-		"dev": "vite",
-		"build": "vite build --emptyOutDir",
-		"docs": "vite build --emptyOutDir",
-		"preview": "vite preview",
-		"push-docs": "npm run deploy",
-		"deploy": "vite build --emptyOutDir && git add docs && git commit -m 'Deployed new version of the page to production' && git push"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com:Adalab/adalab-web-starter-kit.git"
-	},
-	"author": "Adalab",
-	"license": "MIT",
-	"homepage": "https://github.com/adalab/adalab-web-starter-kit"
+  "name": "react-starter-kit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.6.2",
+    "sass": "^1.89.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
+  }
 }
