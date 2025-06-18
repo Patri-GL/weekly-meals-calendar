@@ -1,6 +1,6 @@
 function RecipesForm() {
   return (
-    <form action="">
+    <form className="form" action="" method="post">
       <h3>Añadir una nueva comida</h3>
       <p>
         Porque compartir es vivir, si te gustaría añadir una receta al listado,
@@ -13,6 +13,18 @@ function RecipesForm() {
         name="name"
         // onInput={}
       />
+      <label htmlFor="email">
+        <span>
+          Pásanos tu email para informarte de cuándo se haya subido tu receta:{" "}
+        </span>
+        <input
+          type="email"
+          nombre="correo"
+          id="correo"
+          autoComplete="email"
+          required
+        />
+      </label>
       <label htmlFor="recipe">Añade la receta de tu comida:</label>
       <textarea name="recipe" id="recipe"></textarea>
       <label htmlFor="speciality">Elige para qué momento del día es:</label>

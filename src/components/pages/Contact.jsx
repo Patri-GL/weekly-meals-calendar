@@ -1,28 +1,31 @@
 function Contact() {
   return (
-    <form className="contactForm" action="" method="post">
+    <form className="contactForm form" action="" method="post">
       <label htmlFor="name">
-        <span>Nombre</span>
+        <span>Nombre: </span>
         <input
           type="text"
           name="nombre"
           id="nombre"
-          autocomplete="name"
+          autoComplete="name"
           required
         />
       </label>
       <label htmlFor="email">
-        <span>Email</span>
+        <span>Email: </span>
         <input
           type="email"
           nombre="correo"
           id="correo"
-          autocomplete="email"
+          autoComplete="email"
           required
         />
       </label>
       <label htmlFor="message">
-        <span>Mensaje</span>
+        <span>
+          Si tienes alguna duda, o necesitas ponerte en contacto con
+          nosotras,escribe tu mensaje aquí:
+        </span>
         <textarea name="message" id=""></textarea>
       </label>
       <input className="btn" type="submit" value="Enviar" />

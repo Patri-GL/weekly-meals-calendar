@@ -1,6 +1,6 @@
 {
   "info": {
-    "count": 62,
+    "count": 63,
     "pages": 1,
     "currentPage": 1,
     "next": null,
@@ -10,395 +10,820 @@
     {
       "id": "01",
       "name": "Overnight Oats",
-      "type": "desayuno",
-      "recipe": "Avena, leche, fruta, crema de frutos secos, cacao"
+      "category": "desayuno",
+      "recipe": "Mezclar avena con leche y dejar reposar toda la noche en la nevera. Por la mañana añadir fruta fresca, crema de frutos secos y espolvorear cacao en polvo.",
+      "ingredientes": [
+        "avena",
+        "leche",
+        "fruta fresca",
+        "crema de frutos secos",
+        "cacao en polvo"
+      ]
     },
     {
       "id": "02",
       "name": "Yogur con pera y canela",
-      "type": "desayuno",
-      "recipe": "Yogur al estilo griego, pera cortada en cubos, canela"
+      "category": "desayuno",
+      "recipe": "Servir yogur griego en un bol, añadir pera cortada en cubos y espolvorear canela al gusto.",
+      "ingredientes": ["yogur griego", "pera", "canela"]
     },
     {
       "id": "03",
       "name": "Donut de yogur + manzana",
-      "type": "desayuno",
-      "recipe": "Para el donut, un yogur al estilo griego, un vaso de harina de avena, pasta de dátiles, polvos de hornear, ralladura de un limón"
+      "category": "desayuno",
+      "recipe": "Mezclar yogur griego con harina de avena, pasta de dátiles, polvos de hornear y ralladura de limón. Hornear en moldes para donuts a 180°C durante 15-20 minutos. Acompañar con manzana fresca.",
+      "ingredientes": [
+        "yogur griego",
+        "harina de avena",
+        "pasta de dátiles",
+        "polvos de hornear",
+        "limón",
+        "manzana"
+      ]
     },
     {
       "id": "04",
       "name": "Pan con aguacate",
-      "type": "desayuno",
-      "recipe": "Pan con aguacate untado, si se desea, añadir un huevo hervido"
+      "category": "desayuno",
+      "recipe": "Tostar pan, machacar aguacate y untar sobre el pan. Opcionalmente añadir un huevo hervido en rodajas.",
+      "ingredientes": [
+        "pan integral",
+        "aguacate",
+        "huevo (opcional)",
+        "sal",
+        "pimienta"
+      ]
     },
     {
       "id": "05",
       "name": "Brownie de plátano y chocolate",
-      "type": "desayuno",
-      "recipe": "120gr de harina integral, 1huevo, 1 plátano 3 cucharadas de cacao en polvo, pintitas de chocolate, si se desea, añadir pasta de dátiles"
+      "category": "desayuno",
+      "recipe": "Mezclar harina integral con huevo, plátano maduro machacado, cacao en polvo y trocitos de chocolate. Hornear a 180°C durante 20 minutos.",
+      "ingredientes": [
+        "harina integral",
+        "huevo",
+        "plátano",
+        "cacao en polvo",
+        "chocolate negro",
+        "pasta de dátiles (opcional)"
+      ]
     },
     {
       "id": "06",
       "name": "Leche con cereales",
-      "type": "desayuno",
-      "recipe": "Cereales tipo Corn Flakes sin azúcar"
+      "category": "desayuno",
+      "recipe": "Servir leche fría en un bol y añadir cereales tipo Corn Flakes sin azúcar.",
+      "ingredientes": ["leche", "cereales Corn Flakes sin azúcar"]
     },
-
     {
       "id": "07",
       "name": "Muffin de plátano y nueces",
-      "type": "desayuno",
-      "recipe": "1 Huevo, 1 Plátano, 1/2 vaso de harina integral, nueces trituradas, polvos de hornear"
+      "category": "desayuno",
+      "recipe": "Mezclar huevo, plátano maduro machacado, harina integral, nueces trituradas y polvos de hornear. Hornear en moldes para muffins a 180°C durante 15-20 minutos.",
+      "ingredientes": [
+        "huevo",
+        "plátano",
+        "harina integral",
+        "nueces",
+        "polvos de hornear"
+      ]
     },
     {
       "id": "08",
       "name": "Pan con mantequila y mermelada",
-      "type": "desayuno",
-      "recipe": "PAra la mermelada casera, un vaso de fruta, por ejemplo, arándanos, 3 cucharadas de agua y 1 cucharada de azúcar, dejar hervir y que espese mientras escachamos la fruta para sacar su jugo"
+      "category": "desayuno",
+      "recipe": "Tostar pan, untar mantequilla y añadir mermelada casera (hervir fruta con agua y azúcar hasta espesar).",
+      "ingredientes": [
+        "pan integral",
+        "mantequilla",
+        "fruta (para mermelada)",
+        "azúcar",
+        "agua"
+      ]
     },
-
     {
       "id": "09",
       "name": "Yogur con pasas y avena",
-      "type": "desayuno",
-      "recipe": "Yogur al estilo griego, pasas y 1 cuacharada de avena"
+      "category": "desayuno",
+      "recipe": "Mezclar yogur griego con pasas y avena. Dejar reposar unos minutos para que las pasas se hidraten.",
+      "ingredientes": ["yogur griego", "pasas", "avena"]
     },
-
     {
       "id": "10",
       "name": "Pan con tomate y queso",
-      "type": "desayuno",
-      "recipe": "Rallar un tomate, añadir aceite de oliva, sal y orégano, cortar queso semicurado, añadir al pan integral cortado en rebanadas"
+      "category": "desayuno",
+      "recipe": "Rallar tomate sobre pan tostado, añadir aceite de oliva, sal y orégano. Colocar láminas de queso semicurado.",
+      "ingredientes": [
+        "pan integral",
+        "tomate",
+        "aceite de oliva",
+        "sal",
+        "orégano",
+        "queso semicurado"
+      ]
     },
-
     {
       "id": "11",
       "name": "Galletas de frutos secos + naranja",
-      "type": "desayuno",
-      "recipe": "Triturar frutos secos de elección, 1 huevo, harina integral, sal"
+      "category": "desayuno",
+      "recipe": "Mezclar frutos secos triturados con huevo, harina integral y sal. Formar galletas y hornear a 180°C durante 12-15 minutos. Acompañar con naranja fresca.",
+      "ingredientes": [
+        "frutos secos variados",
+        "huevo",
+        "harina integral",
+        "sal",
+        "naranja"
+      ]
     },
-
     {
       "id": "12",
       "name": "Pan con aceite + melón",
-      "type": "desayuno",
-      "recipe": "Añadir el aceite al pan integral cortado en rebanadas"
+      "category": "desayuno",
+      "recipe": "Tostar pan y añadir aceite de oliva virgen extra. Acompañar con melón fresco.",
+      "ingredientes": ["pan integral", "aceite de oliva virgen extra", "melón"]
     },
-
     {
       "id": "13",
       "name": "Tortitas de plátano",
-      "type": "desayuno",
-      "recipe": "1 plátano, 1 huevo, harina de avena, polvos de hornear"
+      "category": "desayuno",
+      "recipe": "Mezclar plátano maduro machacado con huevo, harina de avena y polvos de hornear. Cocinar en sartén antiadherente por ambos lados.",
+      "ingredientes": [
+        "plátano",
+        "huevo",
+        "harina de avena",
+        "polvos de hornear"
+      ]
     },
-
     {
       "id": "14",
       "name": "Crepes con mermelada casera de fresa",
-      "type": "desayuno",
-      "recipe": "1 huevo, leche, harina, pasta de dátiles, vainilla. Para la mermelada casera, un vaso de fresas, 3 cucharadas de agua y 1 cucharada de azúcar, dejar hervir y que espese mientras escachamos la fruta para sacar su jugo "
+      "category": "desayuno",
+      "recipe": "Mezclar huevo, leche, harina, pasta de dátiles y vainilla para la masa de crepes. Cocinar en sartén. Para la mermelada, cocinar fresas con agua y azúcar hasta espesar.",
+      "ingredientes": [
+        "huevo",
+        "leche",
+        "harina",
+        "pasta de dátiles",
+        "vainilla",
+        "fresas",
+        "azúcar",
+        "agua"
+      ]
     },
     {
       "id": "15",
       "name": "Fruta de temporada",
-      "type": "snack",
-      "recipe": ""
+      "category": "snack",
+      "recipe": "Seleccionar fruta fresca de temporada y lavarla adecuadamente antes de consumir.",
+      "ingredientes": ["fruta de temporada"]
+    },
+    {
+      "id": "63",
+      "name": "Fruta de temporada",
+      "category": "snack",
+      "recipe": "Seleccionar fruta fresca de temporada y lavarla adecuadamente antes de consumir.",
+      "ingredientes": ["fruta de temporada"]
     },
     {
       "id": "16",
       "name": "Pan con mantequilla de frutos secos",
-      "type": "snack",
-      "recipe": ""
+      "category": "snack",
+      "recipe": "Tostar pan y untar con mantequilla de cacahuete, almendra u otro fruto seco al gusto.",
+      "ingredientes": ["pan integral", "mantequilla de frutos secos"]
     },
     {
       "id": "17",
       "name": "Tortitas de maíz",
-      "type": "snack",
-      "recipe": ""
+      "category": "snack",
+      "recipe": "Calentar tortitas de maíz y servir solas o con un poco de aceite de oliva.",
+      "ingredientes": ["tortitas de maíz", "aceite de oliva (opcional)"]
     },
     {
       "id": "18",
       "name": "Yogur",
-      "type": "snack",
-      "recipe": ""
+      "category": "snack",
+      "recipe": "Servir yogur natural o griego, opcionalmente añadir un poco de miel o fruta fresca.",
+      "ingredientes": ["yogur natural o griego", "miel o fruta (opcional)"]
     },
     {
       "id": "18",
       "name": "Pan con queso",
-      "type": "snack",
-      "recipe": ""
+      "category": "snack",
+      "recipe": "Tostar pan y añadir lonchas de queso fresco o semicurado al gusto.",
+      "ingredientes": ["pan integral", "queso"]
     },
     {
       "id": "19",
       "name": "Kéfir",
-      "type": "snack",
-      "recipe": ""
+      "category": "snack",
+      "recipe": "Servir kéfir natural frío, opcionalmente añadir frutos secos o semillas.",
+      "ingredientes": ["kéfir", "frutos secos o semillas (opcional)"]
     },
     {
       "id": "21",
       "name": "Pollo a la plancha + ensalada + kiwi",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Cocinar filetes de pollo a la plancha con un poco de sal y pimienta. Preparar ensalada con lechuga, tomate y cebolla. Acompañar con kiwi fresco de postre.",
+      "ingredientes": [
+        "pollo",
+        "sal",
+        "pimienta",
+        "lechuga",
+        "tomate",
+        "cebolla",
+        "kiwi"
+      ]
     },
     {
       "id": "22",
       "name": "Arroz + merluza al horno con verduras + tomate aliñado",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Cocinar arroz blanco. Hornear merluza con limón y hierbas acompañada de verduras como zanahoria y calabacín. Aliñar tomate con aceite, sal y orégano.",
+      "ingredientes": [
+        "arroz",
+        "merluza",
+        "limón",
+        "hierbas aromáticas",
+        "zanahoria",
+        "calabacín",
+        "tomate",
+        "aceite de oliva",
+        "sal",
+        "orégano"
+      ]
     },
     {
       "id": "23",
       "name": "Fideuá con pollo + verduras a la plancha",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Cocinar fideos tipo fideuá con caldo de pollo, añadiendo trozos de pollo. Saltear verduras variadas (pimiento, berenjena, calabacín) a la plancha.",
+      "ingredientes": [
+        "fideos",
+        "caldo de pollo",
+        "pollo",
+        "pimiento",
+        "berenjena",
+        "calabacín",
+        "aceite de oliva",
+        "sal"
+      ]
     },
     {
       "id": "24",
       "name": "Pasta con salsa de pulpo + sandía",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Cocinar pasta al dente. Preparar salsa con pulpo cocido, ajo, pimentón y aceite de oliva. Servir sandía fresca de postre.",
+      "ingredientes": [
+        "pasta",
+        "pulpo",
+        "ajo",
+        "pimentón",
+        "aceite de oliva",
+        "sandía"
+      ]
     },
     {
       "id": "25",
       "name": "Salmón y papas al horno con zanahoria + arándanos",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Hornear salmón con limón y eneldo junto con papas y zanahoria cortadas en bastones. Servir arándanos frescos de postre.",
+      "ingredientes": [
+        "salmón",
+        "limón",
+        "eneldo",
+        "papas",
+        "zanahoria",
+        "arándanos"
+      ]
     },
     {
       "id": "26",
       "name": "Pasta con salsa de boloñesa",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Cocinar pasta al dente. Preparar salsa boloñesa con carne picada, tomate, cebolla, ajo y hierbas aromáticas.",
+      "ingredientes": [
+        "pasta",
+        "carne picada",
+        "tomate",
+        "cebolla",
+        "ajo",
+        "hierbas aromáticas",
+        "aceite de oliva",
+        "sal",
+        "pimienta"
+      ]
     },
     {
       "id": "27",
       "name": "Hamburguesa con papas 'fritas' al horno + mazorca de maíz",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Preparar hamburguesas de carne o vegetales. Cortar papas en bastones y hornear con un poco de aceite. Hervir mazorca de maíz.",
+      "ingredientes": [
+        "carne para hamburguesa o ingredientes vegetales",
+        "pan de hamburguesa",
+        "papas",
+        "aceite de oliva",
+        "sal",
+        "mazorca de maíz"
+      ]
     },
-
     {
       "id": "28",
       "name": "Pollo al horno con papas + ensalada",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Hornear pollo con especias acompañado de papas. Preparar ensalada verde con los vegetales de preferencia.",
+      "ingredientes": [
+        "pollo",
+        "papas",
+        "especias al gusto",
+        "lechuga",
+        "tomate",
+        "cebolla",
+        "aceite de oliva",
+        "vinagre",
+        "sal"
+      ]
     },
     {
       "id": "29",
       "name": "Guisantes + arroz + huevo guisado",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Cocinar guisantes con un poco de cebolla y jamón. Preparar arroz blanco. Guisar huevos con tomate.",
+      "ingredientes": [
+        "guisantes",
+        "cebolla",
+        "jamón serrano (opcional)",
+        "arroz",
+        "huevos",
+        "tomate",
+        "aceite de oliva",
+        "sal"
+      ]
     },
     {
       "id": "30",
       "name": "Pasta con salsa de calabaza",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Cocinar pasta al dente. Preparar salsa con calabaza cocida, nata líquida y nuez moscada.",
+      "ingredientes": [
+        "pasta",
+        "calabaza",
+        "nata líquida",
+        "nuez moscada",
+        "sal",
+        "pimienta"
+      ]
     },
     {
       "id": "31",
       "name": "Pasta con salsa de remolacha",
-      "type": "almuerzo",
-      "recipe": ""
-    },
-    {
-      "id": "31",
-      "name": "Pasta con salsa de remolacha",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Cocinar pasta al dente. Preparar salsa con remolacha cocida, yogur griego y ajo.",
+      "ingredientes": [
+        "pasta",
+        "remolacha",
+        "yogur griego",
+        "ajo",
+        "sal",
+        "pimienta"
+      ]
     },
     {
       "id": "32",
       "name": "Albóndigas con salsa de zanahoria + puré de papas",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Preparar albóndigas de carne. Cocinar zanahoria y triturar para hacer salsa. Hacer puré de papas con leche y mantequilla.",
+      "ingredientes": [
+        "carne picada",
+        "pan rallado",
+        "huevo",
+        "zanahoria",
+        "papas",
+        "leche",
+        "mantequilla",
+        "sal",
+        "pimienta"
+      ]
     },
     {
       "id": "33",
       "name": "Carne de fiesta canaria + arroz + ensalada",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Marinar carne (normalmente cerdo) con ajo, pimentón y vinagre. Cocinar a la plancha. Acompañar con arroz blanco y ensalada.",
+      "ingredientes": [
+        "carne de cerdo",
+        "ajo",
+        "pimentón",
+        "vinagre",
+        "arroz",
+        "lechuga",
+        "tomate",
+        "cebolla",
+        "aceite de oliva",
+        "sal"
+      ]
     },
     {
       "id": "34",
       "name": "Merluza rebozada al limón + arroz + ensalada",
-      "type": "almuerzo",
-      "recipe": ""
+      "category": "almuerzo",
+      "recipe": "Rebozar filetes de merluza con huevo y pan rallado, cocinar a la plancha con limón. Acompañar con arroz blanco y ensalada verde.",
+      "ingredientes": [
+        "merluza",
+        "huevo",
+        "pan rallado",
+        "limón",
+        "arroz",
+        "ensalada verde",
+        "aceite de oliva",
+        "sal"
+      ]
     },
-
     {
       "id": "35",
       "name": "Magdalena casera al microondas+ melón",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Mezclar harina, huevo, azúcar, aceite y levadura en una taza. Cocinar en microondas 1-2 minutos. Acompañar con melón fresco.",
+      "ingredientes": [
+        "harina",
+        "huevo",
+        "azúcar",
+        "aceite",
+        "levadura",
+        "melón"
+      ]
     },
     {
       "id": "36",
       "name": "Plátano",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Pelar plátano maduro y consumir fresco.",
+      "ingredientes": ["plátano"]
     },
     {
       "id": "37",
       "name": "Sándwich de aguacate y queso",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Tostar pan, untar aguacate machacado y añadir lonchas de queso fresco.",
+      "ingredientes": [
+        "pan integral",
+        "aguacate",
+        "queso fresco",
+        "sal",
+        "pimienta"
+      ]
     },
     {
       "id": "38",
       "name": "Yogur con crema de manices/cacahuete",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Mezclar yogur griego con una cucharada de crema de cacahuete.",
+      "ingredientes": ["yogur griego", "crema de cacahuete"]
     },
     {
       "id": "39",
       "name": "Galletas crujientes caseras",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Mezclar harina, mantequilla, azúcar y huevo. Formar galletas y hornear a 180°C hasta dorar.",
+      "ingredientes": [
+        "harina",
+        "mantequilla",
+        "azúcar",
+        "huevo",
+        "esencia de vainilla (opcional)"
+      ]
     },
     {
       "id": "40",
       "name": "Cerezas + magdalena de arándanos",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Lavar cerezas y acompañar con magdalena casera de arándanos (mezclar harina, huevo, arándanos, azúcar y hornear).",
+      "ingredientes": [
+        "cerezas",
+        "harina",
+        "huevo",
+        "arándanos",
+        "azúcar",
+        "mantequilla"
+      ]
     },
     {
       "id": "41",
       "name": "Sandía + pan con aceite",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Cortar sandía en trozos. Tostar pan y añadir aceite de oliva virgen extra.",
+      "ingredientes": ["sandía", "pan integral", "aceite de oliva virgen extra"]
     },
     {
       "id": "42",
       "name": "Fresas + donut de chocolate",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Lavar fresas y acompañar con donut casero de chocolate (mezclar harina, cacao, huevo, azúcar y hornear en molde de donut).",
+      "ingredientes": [
+        "fresas",
+        "harina",
+        "cacao",
+        "huevo",
+        "azúcar",
+        "mantequilla"
+      ]
     },
     {
       "id": "43",
       "name": "Magdalena de cacao y calabacín",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Mezclar harina, cacao, calabacín rallado, huevo y azúcar. Hornear en moldes para magdalenas.",
+      "ingredientes": [
+        "harina",
+        "cacao",
+        "calabacín",
+        "huevo",
+        "azúcar",
+        "aceite"
+      ]
     },
     {
       "id": "44",
       "name": "Galletas saladas + mandarina",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Servir galletas saladas tipo cracker con queso (opcional). Pelar mandarina fresca.",
+      "ingredientes": ["galletas saladas", "queso (opcional)", "mandarina"]
     },
     {
       "id": "45",
       "name": "Bizcocho de zanahoria",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Mezclar harina, zanahoria rallada, huevo, azúcar y aceite. Hornear a 180°C durante 30-35 minutos.",
+      "ingredientes": [
+        "harina",
+        "zanahoria",
+        "huevo",
+        "azúcar",
+        "aceite",
+        "canela",
+        "nuez moscada"
+      ]
     },
     {
       "id": "46",
       "name": "Pan con mantequila y mermelada",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Tostar pan, untar mantequilla y añadir mermelada favorita.",
+      "ingredientes": ["pan integral", "mantequilla", "mermelada"]
     },
     {
       "id": "47",
       "name": "Croissant de manzana",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Rellenar croissant con compota de manzana (manzana cocida con canela).",
+      "ingredientes": ["croissant", "manzana", "canela", "azúcar (opcional)"]
     },
     {
       "id": "47",
       "name": "Tortitas de crema de manices/cacahuete",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Preparar tortitas con harina, huevo y leche. Untar crema de cacahuete caliente.",
+      "ingredientes": [
+        "harina",
+        "huevo",
+        "leche",
+        "crema de cacahuete",
+        "mantequilla"
+      ]
     },
     {
       "id": "48",
       "name": "Galletas de coco + kéfir",
-      "type": "merienda",
-      "recipe": ""
+      "category": "merienda",
+      "recipe": "Mezclar coco rallado, clara de huevo y azúcar. Hornear a 180°C hasta dorar. Acompañar con kéfir.",
+      "ingredientes": ["coco rallado", "clara de huevo", "azúcar", "kéfir"]
     },
     {
       "id": "49",
       "name": "Arroz con verduras y frijoles + plátano",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Saltear arroz con verduras variadas (pimiento, cebolla, zanahoria) y añadir frijoles cocidos. Acompañar con plátano fresco.",
+      "ingredientes": [
+        "arroz",
+        "pimiento",
+        "cebolla",
+        "zanahoria",
+        "frijoles cocidos",
+        "aceite de oliva",
+        "sal",
+        "plátano"
+      ]
     },
     {
       "id": "50",
       "name": "Lentejas + naranja",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Cocinar lentejas con verduras (cebolla, ajo, zanahoria, pimiento). Servir naranja fresca de postre.",
+      "ingredientes": [
+        "lentejas",
+        "cebolla",
+        "ajo",
+        "zanahoria",
+        "pimiento",
+        "laurel",
+        "sal",
+        "naranja"
+      ]
     },
     {
       "id": "51",
       "name": "Ensalada de garbanzos",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Mezclar garbanzos cocidos con tomate, pepino, cebolla morada, perejil y aliño de limón y aceite.",
+      "ingredientes": [
+        "garbanzos cocidos",
+        "tomate",
+        "pepino",
+        "cebolla morada",
+        "perejil",
+        "limón",
+        "aceite de oliva",
+        "sal"
+      ]
     },
     {
       "id": "52",
       "name": "Hummus de garbanzos+ pepino + zanahoria",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Triturar garbanzos cocidos con ajo, tahini, limón y comino. Servir con bastones de pepino y zanahoria.",
+      "ingredientes": [
+        "garbanzos cocidos",
+        "ajo",
+        "tahini",
+        "limón",
+        "comino",
+        "aceite de oliva",
+        "sal",
+        "pepino",
+        "zanahoria"
+      ]
     },
     {
       "id": "53",
       "name": "Lentejas con arroz y cebolla caramelizada",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Cocinar lentejas y arroz por separado. Caramelizar cebolla en una sartén con un poco de azúcar. Mezclar todo al servir.",
+      "ingredientes": [
+        "lentejas",
+        "arroz",
+        "cebolla",
+        "azúcar",
+        "aceite de oliva",
+        "sal"
+      ]
     },
     {
       "id": "54",
       "name": "Judías verdes salteadas con ajo + fresas",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Saltear judías verdes cocidas con ajo y un poco de jamón. Acompañar con fresas frescas.",
+      "ingredientes": [
+        "judías verdes",
+        "ajo",
+        "jamón serrano (opcional)",
+        "aceite de oliva",
+        "sal",
+        "fresas"
+      ]
     },
     {
       "id": "55",
       "name": "Arroz con verduras + tortilla de espárragos + kiwi",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Saltear arroz con verduras variadas. Preparar tortilla con espárragos trigueros. Servir kiwi de postre.",
+      "ingredientes": [
+        "arroz",
+        "verduras variadas",
+        "huevos",
+        "espárragos trigueros",
+        "aceite de oliva",
+        "sal",
+        "kiwi"
+      ]
     },
     {
       "id": "56",
-      "name": "Arroz con verduras + tortilla de alcachofas + cerezas",
-      "type": "cena",
-      "recipe": ""
+      "name": "Papas al horno + tortilla de alcachofas + cerezas",
+      "category": "cena",
+      "recipe": "Hornear papas con aceite y romero. Preparar tortilla con corazones de alcachofa. Servir cerezas de postre.",
+      "ingredientes": [
+        "papas",
+        "aceite de oliva",
+        "romero",
+        "huevos",
+        "alcachofas",
+        "sal",
+        "cerezas"
+      ]
     },
     {
       "id": "57",
-      "name": "puré de verduras + tortilla de papas",
-      "type": "cena",
-      "recipe": ""
+      "name": "Puré de verduras + tortilla de papas",
+      "category": "cena",
+      "recipe": "Cocinar y triturar verduras (calabaza, zanahoria, patata) para el puré. Preparar tortilla de papas tradicional.",
+      "ingredientes": [
+        "calabaza",
+        "zanahoria",
+        "patata",
+        "leche (opcional para puré)",
+        "huevos",
+        "papas",
+        "cebolla (opcional para tortilla)",
+        "aceite de oliva",
+        "sal"
+      ]
     },
     {
       "id": "58",
       "name": "Quiche de verduras, queso y bacon",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Preparar masa quebrada, rellenar con mezcla de huevo, nata, verduras salteadas, queso y bacon. Hornear a 180°C hasta cuajar.",
+      "ingredientes": [
+        "harina",
+        "mantequilla (para masa)",
+        "huevos",
+        "nata líquida",
+        "verduras variadas",
+        "queso",
+        "bacon",
+        "sal",
+        "pimienta"
+      ]
     },
     {
       "id": "59",
       "name": "Arroz a la cubana + plátano al microondas",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Cocinar arroz blanco. Preparar salsa de tomate casera y huevos fritos. Cocinar plátano en microondas con un poco de miel y canela.",
+      "ingredientes": [
+        "arroz",
+        "tomate",
+        "cebolla",
+        "ajo (para salsa)",
+        "huevos",
+        "plátano",
+        "miel",
+        "canela",
+        "aceite de oliva",
+        "sal"
+      ]
     },
     {
       "id": "60",
-      "name": "Judiones en salsa de tomate + mandarina ",
-      "type": "cena",
-      "recipe": ""
+      "name": "Judiones en salsa de tomate + mandarina",
+      "category": "cena",
+      "recipe": "Cocinar judiones con salsa de tomate, cebolla y laurel. Servir mandarina fresca de postre.",
+      "ingredientes": [
+        "judiones",
+        "tomate",
+        "cebolla",
+        "ajo",
+        "laurel",
+        "aceite de oliva",
+        "sal",
+        "mandarina"
+      ]
     },
     {
       "id": "61",
       "name": "Pizza de verduras",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Preparar masa de pizza, cubrir con salsa de tomate, queso mozzarella y verduras variadas al gusto. Hornear a 220°C hasta que el queso se derrita.",
+      "ingredientes": [
+        "harina",
+        "levadura",
+        "agua (para masa)",
+        "salsa de tomate",
+        "mozzarella",
+        "verduras variadas (champiñones, pimiento, cebolla, etc.)",
+        "aceite de oliva",
+        "orégano",
+        "sal"
+      ]
     },
     {
       "id": "62",
       "name": "puré de verduras + tortilla de champiñones",
-      "type": "cena",
-      "recipe": ""
+      "category": "cena",
+      "recipe": "Cocinar y triturar verduras (patata, zanahoria, puerro) para el puré. Preparar tortilla con champiñones salteados.",
+      "ingredientes": [
+        "patata",
+        "zanahoria",
+        "puerro",
+        "leche (opcional para puré)",
+        "huevos",
+        "champiñones",
+        "ajo",
+        "perejil",
+        "aceite de oliva",
+        "sal",
+        "pimienta"
+      ]
     }
   ]
 }

@@ -22,20 +22,25 @@ function App() {
     "sábado",
     "domingo",
   ];
-  const mealTypes = ["desayuno", "snack", "almuerzo", "merienda", "cena"];
-
-  const getRandomMeal = (type) => {
-    const filteredMeals = meals.filter((meal) => meal.type === type);
-    if (filteredMeals.length === 0) return null;
-    const randomIndex = Math.floor(Math.random() * filteredMeals.length);
-    return filteredMeals[randomIndex];
-  };
+  const mealCategories = ["desayuno", "snack", "almuerzo", "merienda", "cena"];
 
   const generateWeeklyPlan = () => {
-    return days.map((day) => {
+    const mealsPercategory = {};
+    mealCategories.forEach((category) => {
+      const filteredMeals = meals.filter((meal) => meal.category === category);
+      // Por cada tipo de comida
+      mealsPercategory[category] = days.map(() => {
+        // Para cada dia
+        const randomIndex = Math.floor(Math.random() * filteredMeals.length);
+
+        return filteredMeals.splice(randomIndex, 1)[0];
+      });
+    });
+
+    return days.map((day, dayIndex) => {
       const dayPlan = {};
-      mealTypes.forEach((type) => {
-        dayPlan[type] = getRandomMeal(type);
+      mealCategories.forEach((category) => {
+        dayPlan[category] = mealsPercategory[category][dayIndex];
       });
       return { day, ...dayPlan };
     });
@@ -46,7 +51,7 @@ function App() {
   const regeneratePlan = () => {
     setWeeklyPlan(generateWeeklyPlan());
   };
-
+  console.dir(weeklyPlan);
   return (
     <div>
       <Header />
@@ -57,7 +62,7 @@ function App() {
             element={
               <Hero
                 regeneratePlan={regeneratePlan}
-                mealTypes={mealTypes}
+                mealCategories={mealCategories}
                 weeklyPlan={weeklyPlan}
               />
             }
@@ -67,7 +72,7 @@ function App() {
             element={
               <Calendar
                 regeneratePlan={regeneratePlan}
-                mealTypes={mealTypes}
+                mealCategories={mealCategories}
                 weeklyPlan={weeklyPlan}
               />
             }

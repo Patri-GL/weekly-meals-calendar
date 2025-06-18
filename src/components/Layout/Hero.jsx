@@ -16,9 +16,9 @@ function Hero() {
         <h3> ¡Bienvenida a tu Planificador Semanal de Comidas! </h3>
         <p>
           Esta aplicación te ayuda a organizar tus comidas de forma fácil y
-          rápida. <br /> Con solo un clic, genera un menú semanal equilibrado
-          con desayunos, almuerzos, meriendas y cenas, <br />
-          basado en recetas saludables y variadas.
+          rápida. Con solo un clic, genera un menú semanal equilibrado con
+          desayunos, almuerzos, meriendas y cenas, basado en recetas saludables
+          y variadas.
         </p>
         <h4>¿Cómo funciona? </h4>
         <ol>
