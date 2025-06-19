@@ -14,9 +14,6 @@
   }
 }
 
-// main {
-//   height: 100vh;
-// }
 .btn {
   font-family: vars.$bodyText;
   font-size: larger;
@@ -47,7 +44,7 @@ header {
   border-bottom: solid vars.$tags;
 }
 .hamburger {
-  display: none; /* Hidden by default on desktop */
+  display: none;
   background: none;
   border: none;
   cursor: pointer;
@@ -84,6 +81,9 @@ header {
   .hamburger {
     display: block;
   }
+  main {
+    height: 100vh;
+  }
 
   .nav-links {
     position: fixed;
@@ -97,24 +97,11 @@ header {
     gap: 1rem;
     transition: right 0.3s ease;
     z-index: 90;
-    padding-top: 5rem;
-    padding-right: 5rem;
+    padding-top: 6rem;
   }
 
   .nav-links.open {
     right: 0;
-  }
-
-  .hamburger-line.open:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger-line.open:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger-line.open:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
   }
 }
 footer {
@@ -128,6 +115,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 @media (min-width: 800px) {
@@ -236,7 +224,7 @@ textarea {
   border-radius: 5px;
   height: 138px;
 }
-/* Day card styling */
+
 .dayCard {
   border-radius: 0.5rem;
   padding: 1rem;
