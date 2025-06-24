@@ -6,13 +6,15 @@ function RecipesForm() {
         Porque compartir es vivir, si te gustaría añadir una receta al listado,
         por favor, rellena el siguiente formulario
       </p>
-      <label htmlFor="name">Título de la nueva comida:</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        // onInput={}
-      />
+      <label htmlFor="name">
+        Título de la nueva comida:
+        <input
+          type="text"
+          id="name"
+          name="name"
+          // onInput={}
+        />
+      </label>
       <label htmlFor="email">
         <span>
           Pásanos tu email para informarte de cuándo se haya subido tu receta:{" "}

@@ -1,13 +1,13 @@
 import { Link, NavLink } from "react-router";
-import { useState } from "react";
+// import { useState } from "react";
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header>
       <NavLink to="/">
         <h1>Planea. Cocina. Come. Repite.</h1>
       </NavLink>
-      <button
+      {/* <button
         className="hamburger"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         aria-label="Menu"
@@ -18,7 +18,7 @@ function Header() {
       <nav className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <Link to="/recipes">Añade recetas</Link>
         <Link to="/contact">Contáctanos</Link>
-      </nav>
+      </nav> */}
     </header>
   );
 }

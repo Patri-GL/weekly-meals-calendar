@@ -1,18 +1,21 @@
 import "../styles/App.scss";
 import { useState } from "react";
 import { Route, Routes } from "react-router";
-
 import mealsData from "../data/meals.json";
-
 import Header from "./Layout/Header";
 import Footer from "./Layout/Footer";
 import Hero from "./Layout/Hero";
 import RecipesForm from "./pages/RecipesForm";
 import Calendar from "./pages/Calendar";
 import Contact from "./pages/Contact";
+import ShoppingList from "./pages/ShoppingList";
+import ls from "./services/ls";
 
 function App() {
-  const [meals] = useState(mealsData.results);
+  const [meals] = useState(() => {
+    return ls.get("meals", mealsData.results);
+  });
+
   const days = [
     "lunes",
     "martes",
@@ -26,32 +29,36 @@ function App() {
 
   const generateWeeklyPlan = () => {
     const mealsPercategory = {};
+
     mealCategories.forEach((category) => {
       const filteredMeals = meals.filter((meal) => meal.category === category);
-      // Por cada tipo de comida
       mealsPercategory[category] = days.map(() => {
-        // Para cada dia
         const randomIndex = Math.floor(Math.random() * filteredMeals.length);
-
         return filteredMeals.splice(randomIndex, 1)[0];
       });
     });
 
-    return days.map((day, dayIndex) => {
+    const newPlan = days.map((day, dayIndex) => {
       const dayPlan = {};
       mealCategories.forEach((category) => {
         dayPlan[category] = mealsPercategory[category][dayIndex];
       });
       return { day, ...dayPlan };
     });
-  };
 
-  const [weeklyPlan, setWeeklyPlan] = useState(generateWeeklyPlan());
+    setWeeklyPlan(newPlan);
+    ls.set("weeklyPlan", newPlan);
+
+    return newPlan;
+  };
+  const [weeklyPlan, setWeeklyPlan] = useState(() => {
+    return ls.get("weeklyPlan");
+  });
 
   const regeneratePlan = () => {
     setWeeklyPlan(generateWeeklyPlan());
   };
-  console.dir(weeklyPlan);
+
   return (
     <div>
       <Header />
@@ -79,6 +86,15 @@ function App() {
           ></Route>
           <Route path="/recipes" element={<RecipesForm />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route
+            path="/shoppingList"
+            element={
+              <ShoppingList
+                weeklyPlan={weeklyPlan}
+                mealCategories={mealCategories}
+              />
+            }
+          ></Route>
         </Routes>
       </main>
       <Footer />

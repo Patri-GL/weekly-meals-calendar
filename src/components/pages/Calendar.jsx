@@ -1,13 +1,17 @@
 import { useState } from "react";
+import { Link } from "react-router";
 
-function Calendar({ regeneratePlan, mealCategories, weeklyPlan }) {
+function Calendar({
+  regeneratePlan,
+  mealCategories = [],
+  weeklyPlan = [],
+  shoppingList = [],
+}) {
   const [expandedDay, setExpandedDay] = useState(null);
 
   const toggleDay = (index) => {
     setExpandedDay(expandedDay === index ? null : index);
   };
-  const [showShoppingList, setShowShoppingList] = useState(false);
-
   return (
     <section>
       <section className="btnSection">
@@ -15,12 +19,11 @@ function Calendar({ regeneratePlan, mealCategories, weeklyPlan }) {
           Generar un plan nuevo
         </button>
 
-        <button
-          onClick={() => setShowShoppingList(!showShoppingList)}
-          className="btn secondary"
-        >
-          {showShoppingList ? "Ocultar lista" : "Ver lista de compra"}
-        </button>
+        <Link to={"/shoppingList"}>
+          <button onClick={shoppingList} className="btn">
+            Lista de compra
+          </button>
+        </Link>
       </section>
       <section className="desktopView">
         <table className="table">

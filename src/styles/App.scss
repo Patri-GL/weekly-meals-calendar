@@ -81,9 +81,9 @@ header {
   .hamburger {
     display: block;
   }
-  main {
-    height: 100vh;
-  }
+  // main {
+  //   height: 100vh;
+  // }
 
   .nav-links {
     position: fixed;
@@ -98,6 +98,7 @@ header {
     transition: right 0.3s ease;
     z-index: 90;
     padding-top: 6rem;
+    color: vars.$primary;
   }
 
   .nav-links.open {
@@ -214,6 +215,10 @@ select {
   margin: 8px 0;
 }
 
+select option {
+  background-color: vars.$darkCards;
+}
+
 textarea {
   color: vars.$darkBody;
   width: 100%;
@@ -272,6 +277,21 @@ textarea {
   }
 }
 
+@media print {
+  .mobileView {
+    display: none;
+  }
+  .desktopView {
+    display: contents;
+  }
+  footer {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+}
+
 @media (min-width: 800px) {
   .mobileView {
     display: none;
@@ -280,5 +300,48 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.shoppingListSection {
+  padding: 1rem;
+  margin: 1rem;
+}
+.shoppingList {
+  background-color: vars.$darkCards;
+  border: solid 1px vars.$tags;
+  padding: 1rem;
+  border-radius: 4px;
+  list-style: none;
+  li {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0;
+    gap: 0.5rem;
+
+    input[type="checkbox"] {
+      margin: 0;
+      width: 1rem;
+      height: 1rem;
+      cursor: pointer;
+      accent-color: vars.$tags;
+    }
+    span {
+      flex-grow: 1;
+      transition: all 0.2s ease;
+
+      .checked & {
+        text-decoration: line-through;
+        opacity: 0.7;
+      }
+    }
   }
 }
